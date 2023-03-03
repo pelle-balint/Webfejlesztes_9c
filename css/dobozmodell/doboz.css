@@ -19,10 +19,65 @@ body {
 }
 #lila {
     background-color: rgb(112, 41, 99);
-    height: 10000000px;
-    width: 100000px;
+    height: 100px;
 }
 #csárga {
     background-color: yellow;
     height: 20vh;
+}
+#felső_doboz ~ div {
+    width: 40%;
+    height: 40px;
+}
+#szegely {
+    background-color: orange;
+    border: 2.5px solid red;
+    border-radius: 20px;
+    border-left-color: purple;
+    border-right-color: aqua;
+    border-top-color: olivedrab;
+    border-bottom-color: black;
+    border-bottom-width: 10cm;
+    border-right-width: 10cm;
+    border-top-width: 10cm;
+    border-left-width: 10cm;
+}
+#vegyes {
+    background-color: aqua;
+    border-right: 2px dashed black;
+    border-bottom: 5px dotted yellow;
+}
+#kulso_margo {
+    background-color: blue;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+#felső_doboz ~ #kulso {
+    background-color: saddlebrown;
+    height: auto;
+}
+#belso {
+    background-color: hotpink;
+    margin: 10px;
+}
+
+#belso_margo {
+    background-color: red;
+    padding: 10px;
+}
+#belso_vegyes {
+    background-color: royalblue;
+    height: auto !important;
+    /* padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 60px;
+    padding-left: 80px; */
+    /* padding: 20px 40px 60px 80px; */
+    /* padding: 20px 40px;     */
+    padding: 20px 40px 60px;
+    
+}
+#kozepre {
+    background-color: lightyellow;
+    margin: auto;
 }
