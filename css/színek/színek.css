@@ -1,0 +1,18 @@
+p {
+    color: blue; 
+    
+ }
+
+span {
+    color: green;
+}
+#modern {
+    color: khaki;
+}
+
+.golyo{
+    color: black; 
+}
+body>span {
+    color: purple;
+}
