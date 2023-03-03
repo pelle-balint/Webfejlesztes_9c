@@ -13,3 +13,16 @@ body {
     background-color: lightgrey;
     width: 50%;
 }
+#zöld {
+    background-color: green;
+    width: 75vw;
+}
+#lila {
+    background-color: rgb(112, 41, 99);
+    height: 10000000px;
+    width: 100000px;
+}
+#csárga {
+    background-color: yellow;
+    height: 20vh;
+}
