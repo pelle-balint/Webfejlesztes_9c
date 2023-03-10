@@ -1,6 +1,6 @@
 img {
     width: 500px;
-    border: 5px dotted purple;
+    border: 10px dotted rgb(112, 41, 99);
     margin: auto;
 }
 p {
@@ -13,8 +13,18 @@ div {
     width: 100px;
     height: 40px;
     border: 1px solid black;
-    border-radius: 3.5px;
+    border-radius: 5px;
 }
 .tobbsoros {
     display: block;
+}
+
+.egysoros {
+    display: inline;
+}
+.vegyes {
+    display: inline-block;
+}
+.nincsitt {
+    display: none;
 }
