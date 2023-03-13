@@ -4,6 +4,12 @@
 }
 h1 {
     font-weight: normal;
+    font-size: 20px;
+    text-align: center;
+    /* text-decoration-line: underline; */
+    /* text-decoration-style: wavy; */
+    text-decoration: 20px underline wavy green;
+    
 }
 #football {
     font-size: 2.5rem;
@@ -30,5 +36,17 @@ body {
 }
 #IFAB {
     color: blue;
-    font-family: 'Courier New', Courier, monospace; 
+    font-family: 'Comic Sans MS'; 
 }
+#lábsport {
+    letter-spacing: 30pc;
+}
+#kozepso {
+    line-height: 1em;
+    text-align: justify;
+}
+#FIFA {
+    text-transform: uppercase;
+
+} 
+
